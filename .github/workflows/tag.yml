@@ -12,6 +12,9 @@ on:
       warning_bool:
         description: 'WARNING! Ensure that boolean fields are written correctly (true or false).'
         default: 'DATA LOSS HAZARD!'
+      warning_randaz:
+        description: "RANDAZ FAI ATTENZIONE!!!"
+        default: 'no'
       branch:
         description: 'Branch to tag'
         required: true
